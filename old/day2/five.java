@@ -1,6 +1,5 @@
 // Write a function that takes an array of strings and returns the length of the longest string
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class five {

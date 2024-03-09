@@ -3,11 +3,11 @@
 public class nine {
     static class objects {
         private String name;
-        private int age;
+        // private int age;
 
         public objects(String name, int age) {
             this.name = name;
-            this.age = age;
+            // this.age = age;
         }
 
         public String getName() {
