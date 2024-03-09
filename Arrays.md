@@ -1,21 +1,20 @@
 | Done | Problem Number | Problem Name                                       |
 |------|----------------|----------------------------------------------------|
-| [ ]  | 1              | Two Sum                                            |
-| [x]  | 121            | Best Time to Buy and Sell Stock                   |
-| [✓]  | 189            | Rotate Array                                       |
-| [ ]  | 53             | Maximum Subarray                                   |
-| [ ]  | 217            | Contains Duplicate                                 |
-| [ ]  | 238            | Product of Array Except Self                      |
-| [ ]  | 152            | Maximum Product Subarray                          |
+| &check; | 1              | Two Sum                                            |
+| &check; | 121            | Best Time to Buy and Sell Stock                   |
+| &check; | 189            | Rotate Array                                       |
+| &check; | 53             | Maximum Subarray                                   |
+| &check; | 217            | Contains Duplicate                                 |
+| &check; | 238            | Product of Array Except Self                      |
+| &check; | 152            | Maximum Product Subarray                          |
 | [ ]  | 153            | Find Minimum in Rotated Sorted Array              |
 | [ ]  | 33             | Search in Rotated Sorted Array                     |
 | [ ]  | 15             | 3Sum                                               |
 | [ ]  | 448            | Find All Numbers Disappeared in an Array          |
-| [ ]  | 283            | Move Zeroes                                        |
+| &check; | 283            | Move Zeroes                                        |
 | [ ]  | 56             | Merge Intervals                                    |
 | [ ]  | 442            | Find All Duplicates in an Array                    |
 | [ ]  | 560            | Subarray Sum Equals K                              |
-| [ ]  | 238            | Product of Array Except Self                      |
 | [ ]  | 73             | Set Matrix Zeroes                                  |
 | [ ]  | 122            | Best Time to Buy and Sell Stock II                |
 | [ ]  | 118            | Pascal's Triangle                                  |
@@ -33,8 +32,8 @@
 | [ ]  | 41             | First Missing Positive                            |
 | [ ]  | 162            | Find Peak Element                                 |
 | [ ]  | 128            | Longest Consecutive Sequence                      |
-| [ ]  | 268            | Missing Number                                    |
-| [ ]  | 287            | Find the Duplicate Number                         |
+| &check;  | 268            | Missing Number                                    |
+| &check;  | 287            | Find the Duplicate Number                         |
 | [ ]  | 169            | Majority Element                                  |
 | [ ]  | 59             | Spiral Matrix II                                  |
 | [ ]  | 209            | Minimum Size Subarray Sum                         |
