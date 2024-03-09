@@ -4,7 +4,7 @@
 |-----|-------------------------------------------------|--------------------------------------------------------|--------------------------------------------------------------------
 | 1   | Introduction to Java and DSA basics             | Read introductory materials on Java and DSA concepts   |                                                                   |
 | 2   | Arrays                                          | Study arrays, operations, and complexities             |                                                                   |
-| 3   | Array-based problems and solutions              | Solve array-based problems on platforms like LeetCode  |  1, 121, 189, 53, 217                                             |
+| 3   | [Array-based problems and solutions](Arrays.md)              | Solve array-based problems on platforms like LeetCode  |  1, 121, 189, 53, 217                                             |
 | 4   | Strings                                         | Learn string manipulation and related algorithms       |                                                                   |
 | 5   | String-based problems and solutions             | Solve string-based problems on coding platforms        |  344, 242, 3, 151, 8                                              |
 | 6   | Linked Lists                                    | Study singly linked lists and basic operations         |                                                                   | 
