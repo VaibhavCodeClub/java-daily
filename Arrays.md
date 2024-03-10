@@ -7,7 +7,7 @@
 | &check; | 217            | Contains Duplicate                                 |
 | &check; | 238            | Product of Array Except Self                      |
 | &check; | 152            | Maximum Product Subarray                          |
-| [ ]  | 153            | Find Minimum in Rotated Sorted Array              |
+| &check; | 153            | Find Minimum in Rotated Sorted Array              |
 | [ ]  | 33             | Search in Rotated Sorted Array                     |
 | [ ]  | 15             | 3Sum                                               |
 | [ ]  | 448            | Find All Numbers Disappeared in an Array          |
@@ -16,9 +16,9 @@
 | [ ]  | 442            | Find All Duplicates in an Array                    |
 | [ ]  | 560            | Subarray Sum Equals K                              |
 | [ ]  | 73             | Set Matrix Zeroes                                  |
-| [ ]  | 122            | Best Time to Buy and Sell Stock II                |
-| [ ]  | 118            | Pascal's Triangle                                  |
-| [ ]  | 123            | Best Time to Buy and Sell Stock III               |
+| &check; | 122            | Best Time to Buy and Sell Stock II                |
+| &check; | 118            | Pascal's Triangle                                  |
+| &check; | 123            | Best Time to Buy and Sell Stock III               |
 | [ ]  | 54             | Spiral Matrix                                      |
 | [ ]  | 11             | Container With Most Water                          |
 | [ ]  | 36             | Valid Sudoku                                      |
