@@ -1,8 +1,6 @@
 // Subarray Product Less Than K
 // Given an array of integers nums and an integer k, return the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than k.
 
-import java.util.Arrays;
-
 public class leet713 {
     public static void main(String[] args) {
         System.out.println(numSubarrayProductLessThanK(new int[] { 10, 5, 2, 6 }, 100));
