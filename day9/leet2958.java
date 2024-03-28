@@ -23,7 +23,6 @@ public class leet2958 {
         Map<Integer, Integer> rret = new HashMap<>();
         int ans = 0, i = 0, j = 0;
         while (j < nums.length) {
-            // int count = ;
             rret.put(nums[j], rret.getOrDefault(nums[j], 0) + 1);
 
             while (i <= j && rret.get(nums[j]) > k) {
