@@ -37,20 +37,28 @@ public class leet2962 {
         // The approach mentioned above consumes lots of time so................
 
         Map<Integer, Integer> m = new HashMap<>();
+        // Create HashMap to store the count of numers
         int n = nums.length;
         int max = 0;
         for (int num : nums)
+            // Calculate the max value
             if (num > max)
                 max = num;
 
-        int i = 0, j = 0;
-        long ans = 0;
+        int i = 0, j = 0; // Create 2 pointers
+        long ans = 0; // This is the returning value
         while (j < n) {
+            // iterate through loop
             int count = m.getOrDefault(nums[j], 0);
+            // Increase the value of that number by 1 if not present the it will be 1
             m.put(nums[j], count + 1);
             while (m.containsKey(max) && m.get(max) >= k) {
+                // when we reach our desired number of max values add all the next coming
+                // subarrays to the returning value
                 ans += n - j;
+
                 int innerCount = m.get(nums[i]);
+                // Now increase i by one and reduce the count which was left behind by i
                 m.put(nums[i], innerCount - 1);
                 i++;
             }
