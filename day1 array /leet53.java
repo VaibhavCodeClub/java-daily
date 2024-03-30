@@ -4,10 +4,10 @@
 
 public class leet53 {
     public static void main(String[] args) {
-        System.out.println(maxSubArray(new int[] { -1 }));
+        System.out.println(maxSubArray(new int[] { 1, 2, 3, -2, 5 }));
     }
 
-    public static int maxSubArray(int[] nums) {
+    public static long maxSubArray(int[] nums) {
         int maxSum = nums[0], curSum = 0;
         for (int i = 0; i < nums.length; i++) {
             curSum = curSum + nums[i];
