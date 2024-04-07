@@ -1,17 +1,17 @@
 /*
-    *
-   ***
-  *****
- *******
 *********
+ *******
+  *****
+   ***
+    *
 */
-public class pattern8 {
+public class pattern9 {
   public static void main(String[] args) {
-    patternEight(5);
+    patternNine(5);
   }
 
-  private static void patternEight(int num) {
-    for (int i = 1; i <= num; i++) {
+  private static void patternNine(int num) {
+    for (int i = num; i >0; i--) {
 
       for (int j = 1; j <= num - i; j++) {
         System.out.print(" ");
