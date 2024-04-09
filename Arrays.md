@@ -13,7 +13,7 @@
 | 11 | &check; | 448            | Find All Numbers Disappeared in an Array          |
 | 12 | &check; | 283            | Move Zeroes                                        |
 | 13 | &check;  | 56             | Merge Intervals                                    |
-| 14 | [ ]  | 442            | Find All Duplicates in an Array                    |
+| 14 | &check;  | 442            | Find All Duplicates in an Array                    |
 | 15 | [ ]  | 560            | Subarray Sum Equals K                              |
 | 16 | &check;  | 73             | Set Matrix Zeroes                                  |
 | 17 | &check; | 122            | Best Time to Buy and Sell Stock II                |
