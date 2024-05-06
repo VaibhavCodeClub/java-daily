@@ -18,21 +18,18 @@ public class leet11 {
 
         while (left < right) {
             // loop until the left value is less than right one
-            int area = Math.min(height[left], height[right]) * (right - left); //
-
+            int area = Math.min(height[left], height[right]) * (right - left);
             maxArea = Math.max(maxArea, area);
-            if (height[left] < height[right]) {
+            if (height[left] < height[right])
                 left++;
-            } else {
+            else
                 right--;
-            }
         }
-
         return maxArea;
     }
 }
 // Approach here start the left value at 0 and right value at the array length
-// calculat ethe area of those values and store it now watch that if left is
+// calculate the area of those values and store it now watch that if left is
 // small or right is small if left is small then increase its value by 1 else
 // decrease the right by 1 again calculate the area and check the area stored
 // previously is greater or area calculated just now and at the end return the
