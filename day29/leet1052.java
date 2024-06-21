@@ -1,0 +1,45 @@
+// Grumpy Bookstore Owner
+/*
+There is a bookstore owner that has a store open for n minutes. Every minute, some number of customers enter the store. You are given an integer array customers of length n where customers[i] is the number of the customer that enters the store at the start of the ith minute and all those customers leave after the end of that minute.
+
+On some minutes, the bookstore owner is grumpy. You are given a binary array grumpy where grumpy[i] is 1 if the bookstore owner is grumpy during the ith minute, and is 0 otherwise.
+
+When the bookstore owner is grumpy, the customers of that minute are not satisfied, otherwise, they are satisfied.
+
+The bookstore owner knows a secret technique to keep themselves not grumpy for minutes consecutive minutes, but can only use it once.
+
+Return the maximum number of customers that can be satisfied throughout the day.
+*/
+
+public class leet1052 {
+  public static void main(String[] args) {
+    System.out.println(maxSatisfied(new int[] { 3 }, new int[] { 1 }, 1));
+  }
+
+  public static int maxSatisfied(int[] customers, int[] grumpy, int minutes) {
+    int totalSum = 0, n = customers.length;
+
+    // Calculate the initial totalSum of satisfied customers when the owner is not
+    // grumpy.
+    for (int i = 0; i < n; i++) {
+      if (grumpy[i] == 0) {
+        totalSum += customers[i];
+        customers[i] = 0;
+      }
+    }
+    // Calculate the initial window sum.
+
+    int currentWindowSum = 0;
+    for (int i = 0; i < minutes; i++) {
+      currentWindowSum += customers[i];
+    }
+    int maxWindowSum = currentWindowSum;
+    // Slid3 the window
+    for (int i = minutes; i < n; i++) {
+      currentWindowSum += customers[i] - customers[i - minutes];
+      maxWindowSum = maxWindowSum > currentWindowSum ? maxWindowSum : currentWindowSum;
+    }
+    return totalSum + maxWindowSum;
+  }
+
+}
