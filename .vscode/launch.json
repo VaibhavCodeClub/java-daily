@@ -1,0 +1,1281 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "BubbleSort",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "ChocolatePickup",
+      "request": "launch",
+      "mainClass": "ChocolatePickup",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "CountWays",
+      "request": "launch",
+      "mainClass": "CountWays",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "CountZeroes",
+      "request": "launch",
+      "mainClass": "CountZeroes",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "EncodedStringFrequency",
+      "request": "launch",
+      "mainClass": "EncodedStringFrequency",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "Fibonacci",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "FrogJump",
+      "request": "launch",
+      "mainClass": "FrogJump",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "GFGpotd",
+      "request": "launch",
+      "mainClass": "GFGpotd",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "HouseRobber2",
+      "request": "launch",
+      "mainClass": "HouseRobber2",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "IsPalindrome",
+      "request": "launch",
+      "mainClass": "IsPalindrome",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "LL",
+      "request": "launch",
+      "mainClass": "LL",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "Leet2938",
+      "request": "launch",
+      "mainClass": "Leet2938",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "Leet300",
+      "request": "launch",
+      "mainClass": "Leet300",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "Leet322",
+      "request": "launch",
+      "mainClass": "Leet322",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "Leet494",
+      "request": "launch",
+      "mainClass": "Leet494",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "Leet560",
+      "request": "launch",
+      "mainClass": "Leet560",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "Leet7",
+      "request": "launch",
+      "mainClass": "Leet7",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "LinearSearch",
+      "request": "launch",
+      "mainClass": "LinearSearch",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "MaxSumOfNonAdj",
+      "request": "launch",
+      "mainClass": "MaxSumOfNonAdj",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "MinPathSum",
+      "request": "launch",
+      "mainClass": "MinPathSum",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "MulLinearSearch",
+      "request": "launch",
+      "mainClass": "MulLinearSearch",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "NinjaTraining",
+      "request": "launch",
+      "mainClass": "NinjaTraining",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "NoOfSubseq",
+      "request": "launch",
+      "mainClass": "NoOfSubseq",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "Numbers",
+      "request": "launch",
+      "mainClass": "Numbers",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "PartitionEqualSubsetSum",
+      "request": "launch",
+      "mainClass": "PartitionEqualSubsetSum",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "PartitionsWithGivenDiff",
+      "request": "launch",
+      "mainClass": "PartitionsWithGivenDiff",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "PrintOneSubseq",
+      "request": "launch",
+      "mainClass": "PrintOneSubseq",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "PrintSubsequences",
+      "request": "launch",
+      "mainClass": "PrintSubsequences",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "ProductOfDigits",
+      "request": "launch",
+      "mainClass": "ProductOfDigits",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "ReturnList",
+      "request": "launch",
+      "mainClass": "ReturnList",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "ReturnSeperateList",
+      "request": "launch",
+      "mainClass": "ReturnSeperateList",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "Reverse",
+      "request": "launch",
+      "mainClass": "Reverse",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "Reverse2",
+      "request": "launch",
+      "mainClass": "Reverse2",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "RollingString",
+      "request": "launch",
+      "mainClass": "RollingString",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "RotateArray",
+      "request": "launch",
+      "mainClass": "RotateArray",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "RotatedBinarySearch",
+      "request": "launch",
+      "mainClass": "RotatedBinarySearch",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "SelectionSort",
+      "request": "launch",
+      "mainClass": "SelectionSort",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "Sorted",
+      "request": "launch",
+      "mainClass": "Sorted",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "SubsetSumEqualTo",
+      "request": "launch",
+      "mainClass": "SubsetSumEqualTo",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "Sum",
+      "request": "launch",
+      "mainClass": "Sum",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "SumOfDigits",
+      "request": "launch",
+      "mainClass": "SumOfDigits",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "SumSubseq",
+      "request": "launch",
+      "mainClass": "SumSubseq",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "Triangle",
+      "request": "launch",
+      "mainClass": "Triangle",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "UniquePaths",
+      "request": "launch",
+      "mainClass": "UniquePaths",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "UniquePaths2",
+      "request": "launch",
+      "mainClass": "UniquePaths2",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "ZeroOneKnapsack",
+      "request": "launch",
+      "mainClass": "ZeroOneKnapsack",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "binarySearch",
+      "request": "launch",
+      "mainClass": "binarySearch",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "bubbleSort",
+      "request": "launch",
+      "mainClass": "bubbleSort",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "cyclicSort",
+      "request": "launch",
+      "mainClass": "cyclicSort",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "eight",
+      "request": "launch",
+      "mainClass": "eight",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "factorial",
+      "request": "launch",
+      "mainClass": "factorial",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "fibonacci",
+      "request": "launch",
+      "mainClass": "fibonacci",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "five",
+      "request": "launch",
+      "mainClass": "five",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "four",
+      "request": "launch",
+      "mainClass": "four",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "insertionSort",
+      "request": "launch",
+      "mainClass": "insertionSort",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "inverse",
+      "request": "launch",
+      "mainClass": "inverse",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1",
+      "request": "launch",
+      "mainClass": "leet1",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1002",
+      "request": "launch",
+      "mainClass": "leet1002",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet100289",
+      "request": "launch",
+      "mainClass": "leet100289",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet100299",
+      "request": "launch",
+      "mainClass": "leet100299",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet100305",
+      "request": "launch",
+      "mainClass": "leet100305",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet100319",
+      "request": "launch",
+      "mainClass": "leet100319",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet100325",
+      "request": "launch",
+      "mainClass": "leet100325",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1052",
+      "request": "launch",
+      "mainClass": "leet1052",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1122",
+      "request": "launch",
+      "mainClass": "leet1122",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1190",
+      "request": "launch",
+      "mainClass": "leet1190",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet121",
+      "request": "launch",
+      "mainClass": "leet121",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1248",
+      "request": "launch",
+      "mainClass": "leet1248",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet128",
+      "request": "launch",
+      "mainClass": "leet128",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1296",
+      "request": "launch",
+      "mainClass": "leet1296",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1332",
+      "request": "launch",
+      "mainClass": "leet1332",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1342",
+      "request": "launch",
+      "mainClass": "leet1342",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1343",
+      "request": "launch",
+      "mainClass": "leet1343",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1358",
+      "request": "launch",
+      "mainClass": "leet1358",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1365",
+      "request": "launch",
+      "mainClass": "leet1365",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1380",
+      "request": "launch",
+      "mainClass": "leet1380",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1404",
+      "request": "launch",
+      "mainClass": "leet1404",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1438",
+      "request": "launch",
+      "mainClass": "leet1438",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1460",
+      "request": "launch",
+      "mainClass": "leet1460",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1482",
+      "request": "launch",
+      "mainClass": "leet1482",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1493",
+      "request": "launch",
+      "mainClass": "leet1493",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1498",
+      "request": "launch",
+      "mainClass": "leet1498",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet150",
+      "request": "launch",
+      "mainClass": "leet150",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet151",
+      "request": "launch",
+      "mainClass": "leet151",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet152",
+      "request": "launch",
+      "mainClass": "leet152",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet155",
+      "request": "launch",
+      "mainClass": "leet155",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1552",
+      "request": "launch",
+      "mainClass": "leet1552",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1598",
+      "request": "launch",
+      "mainClass": "leet1598",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet16",
+      "request": "launch",
+      "mainClass": "leet16",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1614",
+      "request": "launch",
+      "mainClass": "leet1614",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1652",
+      "request": "launch",
+      "mainClass": "leet1652",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet17",
+      "request": "launch",
+      "mainClass": "leet17",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1701",
+      "request": "launch",
+      "mainClass": "leet1701",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1717",
+      "request": "launch",
+      "mainClass": "leet1717",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet179",
+      "request": "launch",
+      "mainClass": "leet179",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet18",
+      "request": "launch",
+      "mainClass": "leet18",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1827",
+      "request": "launch",
+      "mainClass": "leet1827",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1876",
+      "request": "launch",
+      "mainClass": "leet1876",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1877",
+      "request": "launch",
+      "mainClass": "leet1877",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet189",
+      "request": "launch",
+      "mainClass": "leet189",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet1963",
+      "request": "launch",
+      "mainClass": "leet1963",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet198",
+      "request": "launch",
+      "mainClass": "leet198",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet202",
+      "request": "launch",
+      "mainClass": "leet202",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet2024",
+      "request": "launch",
+      "mainClass": "leet2024",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet2035",
+      "request": "launch",
+      "mainClass": "leet2035",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet205",
+      "request": "launch",
+      "mainClass": "leet205",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet2089",
+      "request": "launch",
+      "mainClass": "leet2089",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet2108",
+      "request": "launch",
+      "mainClass": "leet2108",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet2114",
+      "request": "launch",
+      "mainClass": "leet2114",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet2149",
+      "request": "launch",
+      "mainClass": "leet2149",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet2161",
+      "request": "launch",
+      "mainClass": "leet2161",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet217",
+      "request": "launch",
+      "mainClass": "leet217",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet22",
+      "request": "launch",
+      "mainClass": "leet22",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet2367",
+      "request": "launch",
+      "mainClass": "leet2367",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet238",
+      "request": "launch",
+      "mainClass": "leet238",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet2444",
+      "request": "launch",
+      "mainClass": "leet2444",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet2486",
+      "request": "launch",
+      "mainClass": "leet2486",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet2570",
+      "request": "launch",
+      "mainClass": "leet2570",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet268",
+      "request": "launch",
+      "mainClass": "leet268",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet2824",
+      "request": "launch",
+      "mainClass": "leet2824",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet283",
+      "request": "launch",
+      "mainClass": "leet283",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet287",
+      "request": "launch",
+      "mainClass": "leet287",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet2932",
+      "request": "launch",
+      "mainClass": "leet2932",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet3",
+      "request": "launch",
+      "mainClass": "leet3",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet3110",
+      "request": "launch",
+      "mainClass": "leet3110",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet330",
+      "request": "launch",
+      "mainClass": "leet330",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet345",
+      "request": "launch",
+      "mainClass": "leet345",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet347",
+      "request": "launch",
+      "mainClass": "leet347",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet349",
+      "request": "launch",
+      "mainClass": "leet349",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet350",
+      "request": "launch",
+      "mainClass": "leet350",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet409",
+      "request": "launch",
+      "mainClass": "leet409",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet41",
+      "request": "launch",
+      "mainClass": "leet41",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet442",
+      "request": "launch",
+      "mainClass": "leet442",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet448",
+      "request": "launch",
+      "mainClass": "leet448",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet46",
+      "request": "launch",
+      "mainClass": "leet46",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet49",
+      "request": "launch",
+      "mainClass": "leet49",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet502",
+      "request": "launch",
+      "mainClass": "leet502",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet506",
+      "request": "launch",
+      "mainClass": "leet506",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet523",
+      "request": "launch",
+      "mainClass": "leet523",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet53",
+      "request": "launch",
+      "mainClass": "leet53",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet557",
+      "request": "launch",
+      "mainClass": "leet557",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet58",
+      "request": "launch",
+      "mainClass": "leet58",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet633",
+      "request": "launch",
+      "mainClass": "leet633",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet645",
+      "request": "launch",
+      "mainClass": "leet645",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet66",
+      "request": "launch",
+      "mainClass": "leet66",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet664",
+      "request": "launch",
+      "mainClass": "leet664",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet739",
+      "request": "launch",
+      "mainClass": "leet739",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet74",
+      "request": "launch",
+      "mainClass": "leet74",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet75",
+      "request": "launch",
+      "mainClass": "leet75",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet763",
+      "request": "launch",
+      "mainClass": "leet763",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet78",
+      "request": "launch",
+      "mainClass": "leet78",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet79",
+      "request": "launch",
+      "mainClass": "leet79",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet80",
+      "request": "launch",
+      "mainClass": "leet80",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet821",
+      "request": "launch",
+      "mainClass": "leet821",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet826",
+      "request": "launch",
+      "mainClass": "leet826",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet832",
+      "request": "launch",
+      "mainClass": "leet832",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet846",
+      "request": "launch",
+      "mainClass": "leet846",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet853",
+      "request": "launch",
+      "mainClass": "leet853",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet860",
+      "request": "launch",
+      "mainClass": "leet860",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet88",
+      "request": "launch",
+      "mainClass": "leet88",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet905",
+      "request": "launch",
+      "mainClass": "leet905",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet922",
+      "request": "launch",
+      "mainClass": "leet922",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet931",
+      "request": "launch",
+      "mainClass": "leet931",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet942",
+      "request": "launch",
+      "mainClass": "leet942",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet945",
+      "request": "launch",
+      "mainClass": "leet945",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet961",
+      "request": "launch",
+      "mainClass": "leet961",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet969",
+      "request": "launch",
+      "mainClass": "leet969",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "leet986",
+      "request": "launch",
+      "mainClass": "leet986",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "manish1",
+      "request": "launch",
+      "mainClass": "manish1",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "manish2",
+      "request": "launch",
+      "mainClass": "manish2",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "nine",
+      "request": "launch",
+      "mainClass": "nine",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "nthfibo",
+      "request": "launch",
+      "mainClass": "nthfibo",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "one",
+      "request": "launch",
+      "mainClass": "one",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "selectionSort",
+      "request": "launch",
+      "mainClass": "selectionSort",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "seven",
+      "request": "launch",
+      "mainClass": "seven",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "six",
+      "request": "launch",
+      "mainClass": "six",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "three",
+      "request": "launch",
+      "mainClass": "three",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "two",
+      "request": "launch",
+      "mainClass": "two",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "vaishnavi1",
+      "request": "launch",
+      "mainClass": "vaishnavi1",
+      "projectName": "java daily_95844115"
+    },
+    {
+      "type": "java",
+      "name": "vaishnavi2",
+      "request": "launch",
+      "mainClass": "vaishnavi2",
+      "projectName": "java daily_95844115"
+    }
+  ]
+}
