@@ -7,8 +7,6 @@ k is a positive integer and is less than or equal to the length of the linked li
 You may not alter the values in the list's nodes, only nodes themselves may be changed.
 */
 
-import java.util.*;
-
 class Node {
 
   int data;
@@ -44,7 +42,10 @@ public class ReverseInGroup {
   public static void main(String[] args) {
     Node head = convertArr2LL(new int[] { 1, 2, 3, 4, 5 });
     printLL(head);
-    head = reverseKGroup(head, 3);
+    // head = reverseKGroup(head, 3);
+    // printLL(head);
+
+    head = rotateRight(head, 2);
     printLL(head);
   }
 
@@ -70,10 +71,8 @@ public class ReverseInGroup {
 
   public static Node reverseKGroup(Node head, int k) {
     Node temp = head, prevNode = null, nextNode = null;
-
     while (temp != null) {
       Node kthNode = getKthNode(temp, k);
-
       // Check if we have enough nodes to reverse
       if (kthNode == null) {
         if (prevNode != null) {
@@ -94,6 +93,29 @@ public class ReverseInGroup {
       prevNode = temp; // Move prevNode to current group's start
       temp = nextNode; // Move to next group
     }
+    return head;
+  }
+
+  public static Node rotateRight(Node head, int k) {
+    if (head == null || head.next == null) return head;
+    Node temp = head;
+    int length = 1;
+    while (temp.next != null) {
+      length++;
+      temp = temp.next;
+    }
+    k = k % length;
+    if (k == 0) return head;
+    temp.next = head;
+
+    int stepsToNewHead = length - k;
+
+    temp = head;
+    for (int i = 1; i < stepsToNewHead; i++) {
+      temp = temp.next;
+    }
+    head = temp.next;
+    temp.next = null;
     return head;
   }
 }
