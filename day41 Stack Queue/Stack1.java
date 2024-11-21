@@ -1,89 +1,89 @@
-import java.util.*;
+// import java.util.*;
 
-class Stack {
+// class Stack {
 
-  int top = -1;
-  int stack[];
-  int size;
+//   int top = -1;
+//   int stack[];
+//   int size;
 
-  Stack(int size) {
-    stack = new int[size];
-    this.size = size;
-  }
+//   Stack(int size) {
+//     stack = new int[size];
+//     this.size = size;
+//   }
 
-  void push(int val) {
-    if (top + 1 == size) System.out.println("StackOverflow");
-    else stack[++top] = val;
-  }
+//   void push(int val) {
+//     if (top + 1 == size) System.out.println("StackOverflow");
+//     else stack[++top] = val;
+//   }
 
-  int pop() {
-    if (top == -1) {
-      System.out.println("StackUnderflow");
-      return -1;
-    } else return stack[top--];
-  }
+//   int pop() {
+//     if (top == -1) {
+//       System.out.println("StackUnderflow");
+//       return -1;
+//     } else return stack[top--];
+//   }
 
-  int top() {
-    if (top == -1) {
-      System.out.println("StackUnderflow");
-      return -1;
-    } else return stack[top];
-  }
-}
+//   int top() {
+//     if (top == -1) {
+//       System.out.println("StackUnderflow");
+//       return -1;
+//     } else return stack[top];
+//   }
+// }
 
-class Queue {
+// public class Stack1 {
 
-  int size;
-  int front = -1, rear = -1;
-  int queue[];
+//   private class Queue {
 
-  Queue(int size) {
-    queue = new int[size];
-    this.size = size;
-  }
+//     int size;
+//     int front = -1, rear = -1;
+//     int queue[];
 
-  void enqueue(int value) {
-    if (rear + 1 == size) {
-      System.out.println("queue full");
-    } else {
-      if (front == -1) {
-        front = 0;
-      }
-      queue[++rear] = value;
-    }
-  }
+//     Queue(int size) {
+//       queue = new int[size];
+//       this.size = size;
+//     }
 
-  int dequeue() {
-    if (front > rear && front == -1) {
-      System.out.println("queue empty ");
-      return -1;
-    }
-    return queue[front++];
-  }
+//     void enqueue(int value) {
+//       if (rear + 1 == size) {
+//         System.out.println("queue full");
+//       } else {
+//         if (front == -1) {
+//           front = 0;
+//         }
+//         queue[++rear] = value;
+//       }
+//     }
 
-  int peek() {
-    if (front == -1) {
-      System.out.println("Queue is empty");
-      return -1;
-    } else return queue[front];
-  }
+//     int dequeue() {
+//       if (front > rear && front == -1) {
+//         System.out.println("queue empty ");
+//         return -1;
+//       }
+//       return queue[front++];
+//     }
 
-  boolean isEmpty() {
-    return front == -1;
-  }
-}
+//     int peek() {
+//       if (front == -1) {
+//         System.out.println("Queue is empty");
+//         return -1;
+//       } else return queue[front];
+//     }
 
-public class Stack1 {
+//     boolean isEmpty() {
+//       return front == -1;
+//     }
+//   }
 
-  public static void main(String[] args) {
-    // Stack st = new Stack(10);
-    // st.push(1);
-    // System.out.println(st.top());
-    // System.out.println(st.pop());
-    // st.pop();
-    //
-    Queue q = new Queue(5);
-    q.enqueue(10);
-    System.out.println(q.peek());
-  }
-}
+//   public static void main(String[] args) {
+//     // Stack st = new Stack(10);
+//     // st.push(1);
+//     // System.out.println(st.top());
+//     // System.out.println(st.pop());
+//     // st.pop();
+//     //
+//     Queue q = new Queue(5);
+//     q.enqueue(10);
+//     System.out.println(q.peek());
+//   }
+// }
